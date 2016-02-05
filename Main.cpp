@@ -80,6 +80,7 @@ int main()
 	
    namedWindow("Control", CV_WINDOW_AUTOSIZE); //create a window called "Control"
    cvResizeWindow("Control",300,400);
+   // Beginning in colortrack.cpp.
    int iLowH = 0;
    int iHighH = 179;
 
@@ -273,6 +274,7 @@ int main()
    }
 
   }
+ // End in colortrack.cpp
  // 以上為顏色調整初始
   CvScalar Color;
   int Thickness;
